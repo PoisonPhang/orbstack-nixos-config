@@ -41,6 +41,7 @@
                     ./home-modules/zellij.nix
                     ./home-modules/direnv.nix
                     ./home-modules/helix.nix
+                    ./home-modules/zoxide.nix
                     ./home-modules/starship.nix
                   ];
                 };
