@@ -3,6 +3,7 @@
   programs.zsh = {
     enable = true;
     enableCompletion = true;
+    enableAutosuggestions = true;
     syntaxHighlighting.enable = true;
     shellAliases = {
       fzf-nix = "nix-env -qa | fzf";
