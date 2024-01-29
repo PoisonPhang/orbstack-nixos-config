@@ -6,7 +6,6 @@
       git-lfs
       gnumake
       xclip
-      docker-client
       ltex-ls
       eza
       bat
