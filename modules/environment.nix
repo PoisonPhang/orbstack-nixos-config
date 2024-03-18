@@ -1,15 +1,18 @@
-{ pkgs, lib, currentSystemName, ... }:
+{ pkgs, lib, currentSystemName, pkgs-unstable, ... }:
 {
   environment = {
     systemPackages = with pkgs; [
+      bat
+      delta
+      eza
       git
       git-lfs
       gnumake
-      xclip
       ltex-ls
-      eza
-      bat
-    ];
+      xclip
+    ] ++ (with pkgs-unstable; [
+      lychee
+    ]);
 
     variables = {
       EDITOR = "hx";
