@@ -8,6 +8,7 @@
       enable = true;
       userName = "poisonphang";
       userEmail = "17688291+PoisonPhang@users.noreply.github.com";
+      delta.enable = true;
       lfs.enable = true;
       extraConfig = {
         color.ui = true;

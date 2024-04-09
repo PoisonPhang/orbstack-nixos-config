@@ -66,6 +66,7 @@ with lib;
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     bat
+    delta
     gh
     git
     helix
