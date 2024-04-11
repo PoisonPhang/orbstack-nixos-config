@@ -5,10 +5,14 @@
       bat
       delta
       eza
+      fd 
+      file
+      fzf
       git
       git-lfs
       gnumake
       ltex-ls
+      nil
       xclip
     ] ++ (with pkgs-unstable; [
       lychee
