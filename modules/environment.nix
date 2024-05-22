@@ -1,8 +1,9 @@
-{ pkgs, lib, currentSystemName, pkgs-unstable, ... }:
+{ pkgs, pkgs-unstable, ... }:
 {
   environment = {
     systemPackages = with pkgs; [
       bat
+      bottom
       delta
       eza
       fd 
