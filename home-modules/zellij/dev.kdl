@@ -1,0 +1,12 @@
+layout {
+    pane split_direction="horizontal" {
+    }
+    pane size=1 borderless=true {
+        plugin location="zellij:status-bar"
+    }
+}
+keybinds {
+    shared {
+        bind "Alt g" { Run "lazygit" "status"; }
+    }
+}

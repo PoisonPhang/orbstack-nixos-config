@@ -1,4 +1,4 @@
-{ pkgs-unstable, isDarwin, ... }:
+{ pkgs-unstable, ... }:
 {
   programs.zellij = {
     enable = true;
@@ -8,4 +8,5 @@
       theme = "catppuccin-mocha";
     };
   };
+  home.file.".config/zellij/layouts/dev.kdl".source = ./zellij/dev.kdl;
 }
