@@ -27,6 +27,11 @@
         indent-guides = {
           render = true;
         };
+
+        file-picker = {
+          hidden = false;
+          parents = false;
+        };
       };
     };
 
