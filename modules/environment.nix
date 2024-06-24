@@ -12,8 +12,10 @@
       git
       git-lfs
       gnumake
+      gnupg
       ltex-ls
       nil
+      ssh-to-pgp
       xclip
     ] ++ (with pkgs-unstable; [
       lychee

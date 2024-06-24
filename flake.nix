@@ -43,6 +43,7 @@
                     ./home-modules/helix.nix
                     ./home-modules/zoxide.nix
                     ./home-modules/starship.nix
+                    ./home-modules/gpg.nix
                   ];
                 };
 
