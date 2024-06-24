@@ -13,10 +13,6 @@
   };
 
   outputs = { self, nixpkgs, home-manager, flake-utils, ... }@inputs:
-    let
-      user = "poisonphang";
-    in
-    rec
     {
       nixosConfigurations = let system = "aarch64-linux"; in {
         headless-orb = nixpkgs.lib.nixosSystem {
