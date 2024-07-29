@@ -2,12 +2,12 @@
   description = "NixOS system configuration for Orbstack";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/release-23.11";
+    nixpkgs.url = "github:nixos/nixpkgs/release-24.05";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     helix.url = "github:helix-editor/helix";
     home-manager = {
-      url = "github:nix-community/home-manager/release-23.11";
+      url = "github:nix-community/home-manager/release-24.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -19,7 +19,6 @@
           inherit system;
           modules = [
             ./orb/configuration.nix
-            ./modules/users.nix
             ./modules/zsh.nix
             ./modules/nix.nix
             ./modules/environment.nix
@@ -30,7 +29,7 @@
                 useUserPackages = true;
                 users.poisonphang = {
                   imports = [
-                    { home.stateVersion = "23.05"; }
+                    { home.stateVersion = "24.05"; }
                     ./home-modules/zsh.nix
                     ./home-modules/lazygit.nix
                     ./home-modules/git.nix
