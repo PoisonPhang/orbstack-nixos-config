@@ -13,6 +13,7 @@
       git-lfs
       gnumake
       gnupg
+      jq
       ltex-ls
       nil
       ssh-to-pgp
