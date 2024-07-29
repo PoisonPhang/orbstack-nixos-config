@@ -9,6 +9,7 @@
       fd 
       file
       fzf
+      gh
       git
       git-lfs
       gnumake
