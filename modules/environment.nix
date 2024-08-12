@@ -17,6 +17,7 @@
       jq
       ltex-ls
       nil
+      ripgrep
       ssh-to-pgp
       xclip
     ] ++ (with pkgs-unstable; [
