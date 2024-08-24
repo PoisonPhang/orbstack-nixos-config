@@ -4,6 +4,7 @@
     package = pkgs-unstable.nix;
     settings = {
       sandbox = "relaxed";
+      trusted-users = [ "poisonphang" ];
       substituters = [
         "https://union.cachix.org/"
         "https://nix-community.cachix.org/"
