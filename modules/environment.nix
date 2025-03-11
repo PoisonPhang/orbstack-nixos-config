@@ -28,7 +28,6 @@
     variables = {
       EDITOR = "hx";
       VISUAL = "hx";
-      TERM = "vt100";
     };
 
     # required for zsh autocomplete
