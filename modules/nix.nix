@@ -1,6 +1,7 @@
-{ ... }:
+{ pkgs, ... }:
 {
   nix = {
+    package = pkgs.nixVersions.nix_2_25;
     settings = {
       sandbox = "relaxed";
       trusted-users = [ "poisonphang" ];
