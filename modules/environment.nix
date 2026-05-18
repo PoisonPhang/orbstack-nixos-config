@@ -22,7 +22,7 @@
       xclip
     ] ++ (with pkgs-unstable; [
       lychee
-      _1password
+      _1password-cli
     ]);
 
     variables = {
